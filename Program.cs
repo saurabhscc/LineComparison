@@ -6,7 +6,8 @@ namespace LineComparison
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Line Comparison!");
+            LineCompare lineComparison = new LineCompare();
+            lineComparison.getCartesian();
         }
     }
 }
