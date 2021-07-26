@@ -6,8 +6,10 @@ namespace LineComparison
     {
         static void Main(string[] args)
         {
-            LineCompare lineComparison = new LineCompare();
-            lineComparison.getCartesian();
+            LineCompare obj = new LineCompare();
+            obj.Input();
+            obj.calculation();
+            obj.CompareLines();
         }
     }
 }
